@@ -24,7 +24,7 @@ body{
 }
 
 #header .nav-link:hover{
-    border-bottom: solid 4px;
-    
+    border-bottom: solid 4px var(--secondary);
+    color: var(--secondary);
 
 }
