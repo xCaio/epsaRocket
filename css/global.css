@@ -1,0 +1,66 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+.subtitle{
+  color: var(--secondary);
+  font-weight: 400;
+  color: #000;
+  border-bottom: solid 4px transparent;
+}
+.button{
+  text-transform: lowercase;
+  font-weight: 500;
+  padding-right: 1.4rem;
+  padding-left: 1.4rem;
+}
+.button-primary{
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.button-primary:hover{
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+.button-primary-outline{
+  background-color: var(--light);
+  border-color: var(--primary-dark);
+  color: var(--primary);
+}
+
+.button-primary-outline:hover{
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  
+}
+
+#header .nav-link:hover {
+  border-bottom: solid 4px var(--secondary);
+  color: var(--secondary);
+}
+#slider{
+  background: url(../assets/slider.svg) no-repeat center bottom;
+  background-size: contain;
+}
+#slider h1{
+  text-transform: uppercase;
+  font-weight: 900;
+}
+#slider h4{
+  font-size: 18px;
+  text-transform: uppercase;
+}
